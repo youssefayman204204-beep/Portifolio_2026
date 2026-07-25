@@ -260,10 +260,6 @@ nav a:hover::after {
 	box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
 }
 
-.prof-img:hover {
-	transform: scale(1.02) rotate(1deg);
-}
-
 /* About Section */
 .abt-cont {
 	display: grid;
@@ -335,9 +331,19 @@ nav a:hover::after {
 }
 
 .s-icon {
-	font-size: 3rem;
+	width: 72px;
+	height: 72px;
+	border-radius: 20px;
+	margin: 0 auto 20px auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(0, 229, 255, 0.12);
+	border: 1px solid rgba(0, 229, 255, 0.25);
 	color: #00e5ff;
-	margin-bottom: 20px;
+	font-size: 1.4rem;
+	font-weight: 800;
+	letter-spacing: 0.05em;
 }
 
 .skill h3 {
@@ -445,27 +451,22 @@ nav a:hover::after {
 
 .soc {
 	display: flex;
-	gap: 15px;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
 	margin-bottom: 20px;
 }
 
 .soc a {
-	width: 45px;
-	height: 45px;
-	border-radius: 50%;
-	background: rgba(255, 255, 255, 0.05);
-	border: 1px solid rgba(255, 255, 255, 0.1);
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	display: inline-block;
 	color: #ffffff;
-	font-size: 1.2rem;
+	font-size: 1rem;
+	font-weight: 600;
 	text-decoration: none;
 }
 
 .soc a:hover {
-	background: #00e5ff;
-	color: #000;
+	color: #00e5ff;
 	transform: translateY(-3px);
 }
 
