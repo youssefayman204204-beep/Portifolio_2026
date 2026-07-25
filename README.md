@@ -41,8 +41,8 @@ This project is a clean, responsive portfolio landing page that presents a profi
 - GitHub: https://github.com/youssefayman204204-beep
 - LinkedIn: https://www.linkedin.com/in/youssef-ayman-3933a8394
 - X: https://x.com/YoussefAyman22x
-- https://www.facebook.com/Youssef Ayman
-- https://www.instagram.com/y__a__a22
+- Facebook: https://www.facebook.com/Y.A.A2221/
+- Instagram: https://www.instagram.com/y__a__a22/
 
 
 ## Notes
